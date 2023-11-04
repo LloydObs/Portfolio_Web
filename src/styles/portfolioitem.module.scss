@@ -1,0 +1,62 @@
+@use '../styles/variables.module.scss';
+
+.portfolioItems{
+    background: variables.$darkModeTextsub;
+    padding: 0px 20px 20px 20px;
+    padding-top: 5px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    max-width: 100%;
+   
+    
+    h6{
+        color: variables.$lightModeText;
+        margin-bottom: 20px;
+        background: transparent;
+        font-size: 1.0rem;
+        
+
+
+    }
+}
+.headerItems{
+    background: transparent;
+}
+
+.portfolioImage{
+    margin-top: 30px;
+    background: transparent;
+    
+
+    img{
+        border-radius: 10px;
+        max-width: 100%;
+        display: block;
+    }
+}
+
+.portfolioKeyword{
+    padding: 5px 10px;
+    color: variables.$lightModeText;
+    background: #808dad68;
+    font-size: .7rem;
+    margin-right: 10px;
+    border-radius: 5px;
+    font-size: .8rem;
+    display: inline;
+    max-width: 100%;
+} 
+
+.portfolioLive{
+    margin-left: -100px;
+    margin-top: 30px;
+    display: none;
+
+}
+
+.portfolioItems:hover .portfolioLive{
+    margin-left: 0;
+    display: block;
+    background: transparent;
+}
+

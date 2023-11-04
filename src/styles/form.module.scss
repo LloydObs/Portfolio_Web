@@ -1,0 +1,23 @@
+@use '../styles/variables.module.scss';
+
+.formGroup input, .formGroup textarea{
+    width: 95%;
+    border: none;
+    outline: none;
+    background: variables.$lightModeTextsub;
+    color: variables.$whiteText;
+    padding: 15px 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    
+    
+    
+}
+
+.formGroup input::placeholder, .formGroup textarea::placeholder{
+    font-size: 0.8rem;
+    color: white;
+}
+.form button{
+    color: variables.$lightModeText;
+}

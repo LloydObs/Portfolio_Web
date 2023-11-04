@@ -1,0 +1,58 @@
+@use '../../styles/variables.module.scss';
+
+.headerStyle{
+    margin-top: 4px;
+    margin-bottom: 4px;
+    font-size: 1.5rem;
+  
+}
+.pStyles{
+    font-size: 1.2rem;
+}
+
+.skillsData{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    font-size: 2.0rem;
+    
+
+}
+
+.aboutIcon i{
+    color: variables.$lightModeText;
+}
+
+.subHeader{
+    h6{
+        display: flex;
+        align-items: center;
+        gap: 2px;
+        font-weight: bold;
+        margin-top: 3px;
+    }
+}
+.styleBox{
+    display: flex;
+    gap: 4px;
+    justify-content: flex-end;
+    max-width: 100%;
+    
+
+
+    
+}
+.subStyleBox{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 3px;
+}
+
+.aboutImg{
+    padding: 10px;
+    background: variables.$subColor2;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    margin-right: 10px;
+    max-width: 100%;
+}

@@ -1,0 +1,16 @@
+@use '/src/styles/variables.module.scss';
+
+
+.tab__button__active{
+    color: variables.$subColor5;
+    
+    :active{
+        color: variables.$subColor5;
+
+    }
+}
+
+.h4Style{
+    font-size: 1.5rem;
+    padding-bottom: 10px;
+}

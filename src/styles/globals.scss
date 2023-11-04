@@ -1,0 +1,148 @@
+@use '../styles/variables.module.scss' as *;
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+/*Define css themes here. */
+@import "~slick-carousel/slick/slick.css"; 
+@import "~slick-carousel/slick/slick-theme.css";
+
+
+body{
+  padding: 0;
+  margin: 0;
+  font-family: 'QuickSand', sans-serif;
+  scroll-behavior: smooth;
+  text-align: justify;
+  text-justify: inter-word;
+  
+}
+a {
+  color: unset;
+  text-decoration: none;
+
+  
+}
+section{
+  padding-top: 150px;
+}
+
+footer{
+    padding-bottom: 20px;
+    padding-top: 60px;
+}
+
+::-webkit-scrollbar{
+  width: 10px;
+  background: $lightPrimary;
+}
+
+::-webkit-scrollbar-thumb{
+  border-radius: 2em;
+  background: $lightModeTextsub;
+}
+
+
+.light{
+
+  
+  *{
+    box-sizing: border-box;
+    background: $lightPrimary;
+    /*background: #2F4F4F;*/
+  }
+  p{
+    color: $lightModeText;
+    line-height: 30px;
+  }
+  h1,h2,h3,h4,h5,h6{
+    color: $lightModeText;
+  }
+  
+  h2{
+    font-size: 2.5 rem;
+  }
+  
+  .primaryButton{
+    background: $lightModesub !important;
+    padding: 7px 20px !important;
+    border: 1px solid $lightModeTextsub !important;
+  
+  }
+  
+  .primaryButton a{
+    text-decoration: none;
+    color: $lightModeTextsub;
+    background: transparent !important;
+  }
+  
+  .secondaryButton {
+    background: transparent;
+    border: none;
+    outline: none;
+    padding: 7px 25px;
+  
+  }
+  
+  .secondaryButton a{
+     color: $lightModeTextsub !important;
+  }
+  
+  .primaryButton a:hover, .secondaryButton a:hover{
+    color: unset;
+  }
+  
+  /* Edit scroll bar theme here*/
+
+}
+
+.dark{
+  *{
+    box-sizing: border-box;
+    background: $darkPrimary;
+    /*background: #2F4F4F;*/
+  }
+  p{
+    color: $darkModeText;
+    line-height: 30px;
+  }
+  h1,h2,h3,h4,h5,h6{
+    color: $darkModeText;
+  }
+  
+  h2{
+    font-size: 2.5 rem;
+  }
+  
+  .primaryButton{
+    background: $darkModeSub !important;
+    padding: 7px 20px !important;
+    border: 1px solid $darkModeTextsub !important;
+  
+  }
+  
+  .primaryButton a{
+    text-decoration: none;
+    color: $darkModeTextsub;
+    background: transparent !important;
+  }
+  
+  .secondaryButton {
+    background: transparent;
+    border: none;
+    outline: none;
+    padding: 7px 25px;
+  
+  }
+  
+  .secondaryButton a{
+     color: $darkModeTextsub !important;
+  }
+  
+  .primaryButton a:hover, .secondaryButton a:hover{
+    color: unset;
+  }
+  
+  /* Edit scroll bar theme here*/
+}
