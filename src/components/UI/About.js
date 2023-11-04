@@ -10,7 +10,7 @@ import globalStyle from '../../styles/hero.module.scss'
 import gameImg from '../../assests/game.png'
 import selfieImg1 from '../../assests/selfiePhoto.jpg'
 import selfieImg2 from '../../assests/groupPhot.jpeg'
-import moonPic from '../../assests/moon4.jpg'
+import moonPic from '../../assests/moonv4.jpg'
 
 const About = () => {
     return (

@@ -46,14 +46,14 @@ const portofolio = [
     {
         id: "07",
         title: "Astrophotography",
-        image: '/moon1.JPG',
+        image: '/moonv1.JPG',
         category: "Astrophotography",
         keyword: ["Side Hobbies", "Moon"],
     },
     {
         id: "08",
         title: "AstroPhotography",
-        image: '/moon4.JPG',
+        image: '/moonv4.JPG',
         category: "Astrophotography",
         keyword: ["Side Hobbies", "Moon"],
     },
