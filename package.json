@@ -1,9 +1,12 @@
 {
+  "homepage": "http://LloydObs.github.io/Portfolio_Web",
   "name": "myapp",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
@@ -19,6 +22,7 @@
     "slick-carousel": "^1.8.1"
   },
   "devDependencies": {
+    "gh-pages": "^6.0.0",
     "postcss-import": "^15.1.0"
   }
 }
