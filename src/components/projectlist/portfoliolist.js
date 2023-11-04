@@ -62,7 +62,7 @@ const portofolio = [
         title: "Drowsiness Detection Software",
         image: '/about.JPG',
         category: "Machine Learning",
-        keyword: ["Side Hobbies", "Software"],
+        keyword: ["Side Hobbiesi", "Software"],
     },
     
 
