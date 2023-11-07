@@ -1,16 +1,16 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { Container, Grid, GridColumn, Icon } from 'semantic-ui-react'
 import Link from 'next/link'
-import SectionSub from './SectionSub'
+import SectionSub from '../SubSectionComponent/SectionSub'
 import Image from 'next/image'
-import styles from './about.module.scss'
-import globalStyle from '../../styles/hero.module.scss'
+import styles from '../../../styles/about.module.scss'
+import globalStyle from '../../../styles/hero.module.scss'
 
 //Import images from assests. Mas oks if sa public naka define para hindi same sa ibang pages.
-import gameImg from '../../assests/game.png'
-import selfieImg1 from '../../assests/selfiePhoto.jpg'
-import selfieImg2 from '../../assests/groupPhot.jpeg'
-import moonPic from '../../assests/moonv4.jpg'
+import gameImg from '../../../assests/game.png'
+import selfieImg1 from '../../../assests/selfiePhoto.jpg'
+import selfieImg2 from '../../../assests/groupPhot.jpeg'
+import moonPic from '../../../assests/moonv4.jpg'
 
 const About = () => {
     return (
@@ -76,9 +76,9 @@ const About = () => {
                                 </button>
 
                                 <button className={globalStyle.secondaryButton}>
-                                    <Link href='#'>
+                                    <a href='Objero_Lloyd_CV.pdf' download="Objero_Lloyd_CV.pdf">
                                         My CV
-                                    </Link>
+                                    </a>
                                 </button>
 
                             </div>

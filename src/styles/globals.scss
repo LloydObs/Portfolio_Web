@@ -44,105 +44,49 @@ footer{
 }
 
 
-.light{
+*{
+  box-sizing: border-box;
+  background: $lightPrimary;
+}
+p{
+  color: $lightModeText;
+  line-height: 30px;
+}
+h1,h2,h3,h4,h5,h6{
+  color: $primaryBlack;
+}
 
-  
-  *{
-    box-sizing: border-box;
-    background: $lightPrimary;
-    /*background: #2F4F4F;*/
-  }
-  p{
-    color: $lightModeText;
-    line-height: 30px;
-  }
-  h1,h2,h3,h4,h5,h6{
-    color: $lightModeText;
-  }
-  
-  h2{
-    font-size: 2.5 rem;
-  }
-  
-  .primaryButton{
-    background: $lightModesub !important;
-    padding: 7px 20px !important;
-    border: 1px solid $lightModeTextsub !important;
-  
-  }
-  
-  .primaryButton a{
-    text-decoration: none;
-    color: $lightModeTextsub;
-    background: transparent !important;
-  }
-  
-  .secondaryButton {
-    background: transparent;
-    border: none;
-    outline: none;
-    padding: 7px 25px;
-  
-  }
-  
-  .secondaryButton a{
-     color: $lightModeTextsub !important;
-  }
-  
-  .primaryButton a:hover, .secondaryButton a:hover{
-    color: unset;
-  }
-  
-  /* Edit scroll bar theme here*/
+h2{
+  font-size: 2.5 rem;
+}
+
+.primaryButton{
+  background: $lightModesub !important;
+  padding: 7px 20px !important;
+  border: 1px solid $lightModeTextsub !important;
 
 }
 
-.dark{
-  *{
-    box-sizing: border-box;
-    background: $darkPrimary;
-    /*background: #2F4F4F;*/
-  }
-  p{
-    color: $darkModeText;
-    line-height: 30px;
-  }
-  h1,h2,h3,h4,h5,h6{
-    color: $darkModeText;
-  }
-  
-  h2{
-    font-size: 2.5 rem;
-  }
-  
-  .primaryButton{
-    background: $darkModeSub !important;
-    padding: 7px 20px !important;
-    border: 1px solid $darkModeTextsub !important;
-  
-  }
-  
-  .primaryButton a{
-    text-decoration: none;
-    color: $darkModeTextsub;
-    background: transparent !important;
-  }
-  
-  .secondaryButton {
-    background: transparent;
-    border: none;
-    outline: none;
-    padding: 7px 25px;
-  
-  }
-  
-  .secondaryButton a{
-     color: $darkModeTextsub !important;
-  }
-  
-  .primaryButton a:hover, .secondaryButton a:hover{
-    color: unset;
-  }
-  
-  /* Edit scroll bar theme here*/
+.primaryButton a{
+  text-decoration: none;
+  color: $lightModeTextsub;
+  background: transparent !important;
 }
+
+.secondaryButton {
+  background: transparent;
+  border: none;
+  outline: none;
+  padding: 7px 25px;
+
+}
+
+.secondaryButton a{
+   color: $lightModeTextsub !important;
+}
+
+.primaryButton a:hover, .secondaryButton a:hover{
+  color: unset;
+}
+
+/* Edit scroll bar theme here*/

@@ -5,69 +5,89 @@
 
 
 
-.primaryButton{
-  background: transparent !important;
-  padding: 7px 20px !important;
-  border: 1px solid variables.$lightModeText !important;
+.primaryButton {
+  padding: 7px 20px;
+  border: 2px solid variables.$primaryBlack;
+  background: variables.$primaryBlack;
+  color: variables.$whiteText; // Set the default text color
+  transition: background 0.3s, color 0.3s;
+  margin-right: 40px;
 
-}
+  &:hover {
+    background: transparent;
+    color: variables.$primaryBlack; // Change the text color on hover
+  }
 
-.primaryButton a{
-  text-decoration: none;
-  color: variables.$lightModeText;
-  background: transparent !important;
+  a {
+    text-decoration: none;
+    color: inherit; // Add this line to inherit the color from the parent
+  }
 }
 
 .secondaryButton {
   background: transparent;
-  border: none;
-  outline: none;
+  border: 2px solid variables.$lightModeText; // Add a border for the secondary button
   padding: 7px 25px;
+  color: variables.$lightModeText; // Set the text color for the secondary button
+  transition: background 0.3s, color 0.3s, border-color 0.3s; // Add transitions
 
+  &:hover {
+    background: variables.$lightModeText; // Change the background on hover
+    color: variables.$whiteText; // Change the text color on hover
+    border-color: transparent; // Hide the border on hover
+  }
+
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
 }
 
-.secondaryButton a{
-   color: variables.$lightModeText !important;
-}
 
-.primaryButton a:hover{
-  color: variables.$lightModeTextsub;
-}
+// .secondaryButton a {
+//   color: variables.$lightModeText !important;
+// }
 
-.secondaryButton a:hover{
-  color: variables.$lightModeTextsub !important;
-}
+// .primaryButton a:hover {
+//   color: transparent;
+// }
 
-.hero{
+// .secondaryButton a:hover {
+//   color: variables.$lightModeTextsub !important;
+// }
+
+.hero {
   padding-top: 60px !important;
 }
+
 .heroContent {
   padding-top: 50px;
   font-size: 1.2rem;
-    h5{
-      color: variables.$lightModeText;
-      font-weight: 400;
-      font-size: 1.1rem;
-    }
-    
+
+  h5 {
+    color: variables.$lightModeText;
+    font-weight: 400;
+    font-size: 1.1rem;
+  }
+
 }
 
-.heroImg{
+.heroImg {
   position: relative;
   z-index: 9;
   justify-content: end;
   float: right;
-  
 
-    img{
-      border-radius: 50px 5px 5px 5px;
-      max-width: 100%;
-      display: block;
-    }
+
+  img {
+    border-radius: 50px 5px 5px 5px;
+    max-width: 100%;
+    display: block;
+  }
 
 }
 
-.heroSkills{
+.heroSkills {
   text-align: left;
   width: 150px;
   padding: 10px 20px;
@@ -79,22 +99,23 @@
   z-index: 10;
   transform: translateY(-50%);
 
-  h6{
+  h6 {
     background: transparent;
     color: variables.$whiteText;
   }
+
   span {
     color: variables.$subColor5;
     background: transparent;
 
-    i{
+    i {
       background: transparent;
     }
   }
- 
+
 }
 
-.hero__experience{
+.hero__experience {
   display: flex;
   align-items: center;
   gap: 3px;
@@ -107,26 +128,29 @@
   bottom: -10%;
   right: -60%;
 
-  
-  span{
+
+  span {
     background: transparent;
-    i{
+
+    i {
       color: variables.$subColor5;
       background: transparent;
     }
   }
-  h6{
+
+  h6 {
     margin-bottom: 5px;
     font-weight: 400;
     font-size: .8rem;
     background: transparent;
   }
-  h5{
+
+  h5 {
     background: transparent;
   }
-  
-}
-.experience2{
-  background: transparent;
-}  
 
+}
+
+.experience2 {
+  background: transparent;
+}

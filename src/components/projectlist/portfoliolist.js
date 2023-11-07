@@ -7,6 +7,7 @@ const portofolio = [
         image: '/tacDesk.png',
         category: "Mobile App",
         keyword: ["Mobile", "Incident Reporting Tool"],
+        liveUrl: 'https://github.com/LloydObs/TACDesk_capstone',
     },
     {
         id: "02",
@@ -14,6 +15,7 @@ const portofolio = [
         image: '/busReserb.png',
         category: "Website Application",
         keyword: ["Website", "Reservation Website"],
+        liveUrl: 'https://github.com/LloydObs/PASAHEROES',
     },
     {
         id: "03",
@@ -28,13 +30,15 @@ const portofolio = [
         image: '/pong.png',
         category: "Simple Program",
         keyword: ["Rust", "Simple Game"],
+        liveUrl: 'https://github.com/LloydObs/rust_projects',
     },
     {
         id: "05",
         title: "Snake Game",
         image: '/snakeGame.png',
         category: "Simple Program",
-        keyword: ["Rust", "Side Project"],   
+        keyword: ["Rust", "Side Project"],
+        liveUrl: 'https://github.com/LloydObs/rust_projects',   
     },
     {
         id: "06",
@@ -42,6 +46,7 @@ const portofolio = [
         image: '/localChatServer.png',
         category: "Simple Program",
         keyword: ["Rust", "Side Project"],
+        liveUrl: 'https://github.com/LloydObs/rust_projects',
     },
     {
         id: "07",
@@ -49,6 +54,7 @@ const portofolio = [
         image: '/moonv1.JPG',
         category: "Astrophotography",
         keyword: ["Side Hobbies", "Moon"],
+        liveUrl: 'https://github.com/LloydObs/TACDesk_capstone',
     },
     {
         id: "08",
@@ -62,7 +68,7 @@ const portofolio = [
         title: "Drowsiness Detection Software",
         image: '/about.JPG',
         category: "Machine Learning",
-        keyword: ["Side Hobbiesi", "Software"],
+        keyword: ["Side Hobbies", "Software"],
     },
     
 

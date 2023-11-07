@@ -1,5 +1,5 @@
 import React from 'react'
-import styles from '../../styles/servicesitem.module.scss'
+import styles from '../../../../styles/servicesitem.module.scss'
 import { Icon } from 'semantic-ui-react';
 
 const ServicesItem = ({title, icon}) => {

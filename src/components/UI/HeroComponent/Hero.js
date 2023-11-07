@@ -2,9 +2,9 @@ import React from 'react'
 import { Container, Grid, Icon } from 'semantic-ui-react'
 import Image from 'next/image'
 import Link from 'next/link'
-import myImage from '../../../src/assests/about.jpg'
-import styles from '../../styles/hero.module.scss'
-import SectionSub from './SectionSub'
+import myImage from '../../../../src/assests/about.jpg'
+import styles from '../../../styles/hero.module.scss'
+import SectionSub from '../SubSectionComponent/SectionSub'
 
 const Hero = () => {
     return (

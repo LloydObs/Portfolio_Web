@@ -14,8 +14,6 @@
         margin-bottom: 20px;
         background: transparent;
         font-size: 1.0rem;
-        
-
 
     }
 }
@@ -60,3 +58,14 @@
     background: transparent;
 }
 
+.projectNA {
+    padding: 6px 10px;
+    color: variables.$primaryBlack;
+    background: transparent;
+    font-size: 11px !important;
+    margin-right: 10px;
+    border-radius: 5px;
+    display: inline;
+    max-width: 100%;
+    font-weight: bold;
+} 

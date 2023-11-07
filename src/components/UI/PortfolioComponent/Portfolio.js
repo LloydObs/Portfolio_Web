@@ -1,13 +1,13 @@
 import React from 'react'
 
 import { Button, Container, Grid } from 'semantic-ui-react'
-import SectionSub from './SectionSub'
-import globalStyle from '../../styles/hero.module.scss'
-import styles from '../../styles/portfolio.module.scss'
+import SectionSub from '../SubSectionComponent/SectionSub'
+import globalStyle from '../../../styles/hero.module.scss'
+import styles from '../../../styles/portfolio.module.scss'
 import Link from 'next/link'
 
-import data from '../projectlist/portfoliolist'
-import PortofolioItem from './PortfolioItems'
+import data from '../../projectlist/portfoliolist'
+import PortofolioItem from './PortfolioItems/PortfolioItems'
 
 
 const Portfolio = () => {
@@ -23,23 +23,23 @@ const Portfolio = () => {
                         </Grid.Column>
                         <Grid.Column largeScreen={8} mobile={8}>
                             <div style={{ textAlign: 'end' }}>
-                                <button className={globalStyle.secondaryButton}>
+                                <button className={globalStyle.primaryButton}>
                                     <Link href='#portfolio'>
                                         My Portfolio
                                     </Link>
                                 </button>
 
                                 <button className={globalStyle.secondaryButton}>
-                                    <Link href='#'>
+                                    <a href='Objero_Lloyd_CV.pdf' download="Objero_Lloyd_CV.pdf">
                                         My CV
-                                    </Link>
+                                    </a>
                                 </button>
                             </div>
                         </Grid.Column>
                         {
                             data.map(item => (
                                 <Grid.Column largeScreen={4} mobile={4} key={item.id}>
-                                    <PortofolioItem item={item}/>
+                                    <PortofolioItem item={item} />
                                 </Grid.Column>
                             ))
                         }

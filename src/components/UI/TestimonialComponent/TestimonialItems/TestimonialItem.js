@@ -1,5 +1,5 @@
 import React from 'react'
-import styles from '../../styles/testimonials.module.scss'
+import styles from '../../../../styles/testimonials.module.scss'
 import Image from 'next/image'
 
 const TestimonialItem = (props) => {

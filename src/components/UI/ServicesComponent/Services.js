@@ -1,8 +1,8 @@
 import React from 'react'
 import { Container, Grid} from 'semantic-ui-react'
-import SectionSub from './SectionSub'
-import styles from '../../styles/services.module.scss'
-import ServicesItem from './ServicesItem';
+import SectionSub from '../SubSectionComponent/SectionSub'
+import styles from '../../../styles/services.module.scss'
+import ServicesItem from './ServicesItems/ServicesItem';
 
 
 

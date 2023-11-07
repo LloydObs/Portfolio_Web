@@ -1,7 +1,7 @@
 import React from 'react'
 import { Container, Grid, Icon } from 'semantic-ui-react';
-import classes from '../Header/header.module.scss'
-import styles from '../Footer/footer.module.scss'
+import classes from '../../styles/header.module.scss'
+import styles from '../../styles/footer.module.scss'
 import Link from 'next/link'
 import { navLink } from '@/components/Header/Header';
 

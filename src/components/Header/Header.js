@@ -2,7 +2,7 @@ import React from 'react';
 
 import { Button, Container, Icon, IconGroup } from 'semantic-ui-react'
 import Link from 'next/link';
-import styles from './header.module.scss'
+import styles from '../../styles/header.module.scss'
 
 //Navigation Links should be defined here if gusto mag add in the future.
 export const navLink = [
@@ -71,8 +71,8 @@ const Header = () => {
                 +9294423749
               </p>
             </div>
-            <Button icon className={styles.darkModeButton}>
-              <Icon name='moon' />
+            <Button icon className={styles.darkModeButton} style={{background: "#a4a2a4"}}>
+              <Icon name='moon' style={{background: "#a4a2a4"}}/>
             </Button>
           </div>
           <span className={styles.mobileView}>

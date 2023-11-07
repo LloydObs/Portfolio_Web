@@ -1,12 +1,12 @@
 import React from 'react'
 import { Container, Grid, GridRow } from 'semantic-ui-react'
 import Image from 'next/image'
-import SectionSub from './SectionSub'
-import vector from '../../assests/vector1.jpg'
+import SectionSub from '../SubSectionComponent/SectionSub'
+import vector from '../../../assests/vector1.jpg'
 import Slider from 'react-slick'
-import styles from '../../styles/testimonials.module.scss'
-import TestimonialItem from './TestimonialItem'
-import testimonialData from '../testimonialItem/testimonialData'
+import styles from '../../../styles/testimonials.module.scss'
+import TestimonialItem from './TestimonialItems/TestimonialItem'
+import testimonialData from '../../testimonialItem/testimonialData'
 
 
 const Testimonial = () => {

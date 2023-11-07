@@ -1,9 +1,9 @@
 import React from 'react'
 import { Grid, Icon } from 'semantic-ui-react'
 import Link from 'next/link'
-import SectionSub from './SectionSub'
-import styles from '../../styles/contact.module.scss'
-import Form from './Form'
+import SectionSub from '../SubSectionComponent/SectionSub'
+import styles from '../../../styles/contact.module.scss'
+import Form from '../FormComponent/Form'
 
 const Contact = () => {
     return (
@@ -49,15 +49,15 @@ const Contact = () => {
                             </li>
                         </ul>
                         <div className={styles.socialLinks}>
-                            <Link href='#'>
+                            <Link href='https://github.com/LloydObs' target='_blank'>
                                 <Icon name='github'>
                                 </Icon>
                             </Link>
-                            <Link href='#'>
+                            <Link href='https://www.facebook.com/lloydadrian.objero' target='_blank'>
                                 <Icon name='facebook'>
                                 </Icon>
                             </Link>
-                            <Link href='#'>
+                            <Link href='https://www.linkedin.com/in/lloyd-objero-bb7011220/' target='_blank'>
                                 <Icon name='linkedin'>
                                 </Icon>
                             </Link>
@@ -65,11 +65,11 @@ const Contact = () => {
                                 <Icon name='viber'>
                                 </Icon>
                             </Link>
-                            <Link href='#'>
+                            <Link href='https://www.facebook.com/lloydadrian.objero' target='_blank'>
                                 <Icon name='facebook messenger'>
                                 </Icon>
                             </Link>
-                            <Link href='#'>
+                            <Link href='https://discordapp.com/users/455933223608778762' target='_blank'>
                                 <Icon name='discord'>
                                 </Icon>
                             </Link>
