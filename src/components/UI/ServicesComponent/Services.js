@@ -16,9 +16,9 @@ const Services = () => {
             <Grid.Column largeScreen={9} mobile={6}>
               <div className={styles.serviceContainer}>
                 <div>
-                  <ServicesItem title='Android Developer' icon='mobile alternate' />
+                  <ServicesItem title='Application Developer' icon='mobile alternate' />
 
-                  <ServicesItem title='Backend Developer' icon='desktop' />
+                  <ServicesItem title='Programmer' icon='desktop' />
                 </div>
 
                 <ServicesItem title='Database Programmer' icon='database' />
