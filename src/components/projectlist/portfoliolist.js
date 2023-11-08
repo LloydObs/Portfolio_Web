@@ -51,7 +51,7 @@ const portofolio = [
     {
         id: "07",
         title: "Astrophotography",
-        image: '/moonv1.JPG',
+        image: '/moonv1.jpg',
         category: "Astrophotography",
         keyword: ["Side Hobbies", "Moon"],
         liveUrl: 'https://github.com/LloydObs/TACDesk_capstone',
@@ -59,21 +59,21 @@ const portofolio = [
     {
         id: "08",
         title: "AstroPhotography",
-        image: '/moonv4.JPG',
+        image: '/moonv4.jpg',
         category: "Astrophotography",
         keyword: ["Side Hobbies", "Moon"],
     },
     {
         id: "09",
         title: "Drowsiness Detection Software",
-        image: '/about.JPG',
+        image: '/about.jpg',
         category: "Machine Learning, Pytorch",
         keyword: ["Side Hobbies", "Software"],
     },
     {
         id: "10",
         title: "ICrop",
-        image: '/forICrop.JPG',
+        image: '/forICrop.jpg',
         category: "Kotlin, Mobile App",
         keyword: ["Management App", "Agricultural"],
     },
