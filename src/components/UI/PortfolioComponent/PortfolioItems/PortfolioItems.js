@@ -20,7 +20,7 @@ const PortfolioItems = (props) => {
         ))}
       </div>
       <div className={styles.portfolioImage}>
-        <Image alt="portfolio-img" src={image} width={220} height={200} />
+        <Image alt="portfolio-img" src={image} width={220} height={200} layout="fixed" />
       </div>
       <div className={styles.portfolioLive}>
         {isValidUrl ? ( 

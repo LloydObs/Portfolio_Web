@@ -67,9 +67,17 @@ const portofolio = [
         id: "09",
         title: "Drowsiness Detection Software",
         image: '/about.JPG',
-        category: "Machine Learning",
+        category: "Machine Learning, Pytorch",
         keyword: ["Side Hobbies", "Software"],
     },
+    {
+        id: "10",
+        title: "ICrop",
+        image: '/forICrop.JPG',
+        category: "Kotlin, Mobile App",
+        keyword: ["Management App", "Agricultural"],
+    },
+    
     
 
 ];
