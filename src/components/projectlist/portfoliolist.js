@@ -76,6 +76,7 @@ const portofolio = [
         image: '/forICrop.jpg',
         category: "Kotlin, Mobile App",
         keyword: ["Management App", "Agricultural"],
+        liveUrl: 'https://github.com/Gian1001/iCrop_MobDev101?fbclid=IwAR2PZGFfdzH2DR6UOGVo1P-qv1O2gK3lA2Xhq9av3zJzFqtpogAX-had18M'
     },
     
     

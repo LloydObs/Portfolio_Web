@@ -23,7 +23,7 @@ const Hero = () => {
                                     Mobile Developer | Backend Developer
                                 </h5>
                                 <p>
-                                    Currently a 4th year IT student from PUP. I find satisfaction in
+                                    Currently a Fresh IT graduate from PUP. I find satisfaction in
                                     developing small programs and solving problems through coding. My
                                     interest in learning new technology extends beyond the classroom and
                                     I always find a room to improve my coding skills and problem solving skills.
