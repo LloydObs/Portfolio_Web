@@ -2,10 +2,10 @@
 
 
 .tab__button__active{
-    color: variables.$subColor5;
+    color: variables.$button;
     
     :active{
-        color: variables.$subColor5;
+        color: variables.$button;
 
     }
 }

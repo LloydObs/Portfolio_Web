@@ -35,18 +35,18 @@ footer{
 
 ::-webkit-scrollbar{
   width: 10px;
-  background: $lightPrimary;
+  background: $navigation;
 }
 
 ::-webkit-scrollbar-thumb{
   border-radius: 2em;
-  background: $lightModeTextsub;
+  background: $subnavigation;
 }
 
 
 *{
   box-sizing: border-box;
-  background: $lightPrimary;
+  background: $colorPrimary;
 }
 p{
   color: $lightModeText;

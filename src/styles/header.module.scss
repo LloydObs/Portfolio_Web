@@ -8,6 +8,12 @@
     height: 80px;
     line-height: 100px;
     font-family: 'Quicksand', sans-serif;
+    position : sticky;
+    top: 0;
+    z-index: 1000;
+    background-color: variables.$colorPrimary;
+    padding: 10px 0;
+    transition: all 0.3s ease-in-out;
     
 
 }
@@ -25,7 +31,7 @@
     font-family: 'Quicksand', sans-serif;
 
     span{
-        color: variables.$lightModesub;
+        color: variables.$subcolor1;
     }
 
 }
@@ -36,10 +42,11 @@
     align-items: center;
     column-gap: 2.8rem;
     color: variables.$primaryBlack !important;
-    margin-bottom: 20px;
+    margin-bottom: 23px;
     font-family: 'Quicksand', sans-serif;
     font-size: 1.2rem;
-    font-weight: 400;
+    font-weight: 500;
+    
 
     i{
         color: variables.$primaryBlack !important;
@@ -48,11 +55,13 @@
     }
     a:hover{
         color: variables.$primaryBlack !important;
+        cursor: pointer;
     }
     
     a:first-child{
-        color: variables.$lightModesub !important;
+        color: variables.$subcolor1 !important;
         
+
     }
 }
 
@@ -102,7 +111,7 @@
     width: 100px;
     height: 80px;
     line-height: 80px;
-    box-shadow: 5px 5px 15px -5px variables.$subColor5 !important;
+    box-shadow: 5px 5px 15px -5px variables.$secondary !important;
     z-index: 9999;
 }
 

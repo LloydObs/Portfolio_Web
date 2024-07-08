@@ -1,16 +1,16 @@
-
-
 //Define color variables here. 
 //-------------Primary Theme ------------------
-$colorPrimary: #0e1630;
-$subColor: #a4a2a4; 
-$subColor2: #C0C0C0;
-$subcolor3: #9c949a;
-$subcolor4: #4682B4;
-$subColor5: #008B8B;
+$colorPrimary: #FAFAFA;
+$primary_text: #333333; 
+$header: #000000;
+$primary: #1E90FF ;
+$secondary: #FFA07A ;
+$button: #FFFFFF;
 $whiteText: #fff;
-$subColor6: #808dad;
-$subcolor7: #B0C4DE;
+$links: #1E90FF ;
+$subcolor1: #32CD32;
+$navigation: #006666;
+$subnavigation : #1C86EE;
 
 //------------Secondary Theme (Light/Dark Mode) -------------------
 
@@ -21,13 +21,34 @@ $lightModeText: #333333;
 $lightModeTextsub: #777777;
 $primaryBlack : black;
 
-
-//Dark mode: 
+//Dark mode
 $darkPrimary: #333333;
 $darkModeSub: #00AEA8;
 $darkModeText: #f5f5f5;
 $darkModeTextsub: #CCCCCC;
 
-.title{
+.title {
     color: $colorPrimary; 
+}
+
+body.light-mode {
+    background-color: $lightPrimary;
+    color: $lightModeText;
+    .title {
+        color: $primaryBlack;
+    }
+    .sub-text {
+        color: $lightModeTextsub;
+    }
+}
+
+body.dark-mode {
+    background-color: $darkPrimary;
+    color: $darkModeText;
+    .title {
+        color: $whiteText;
+    }
+    .sub-text {
+        color: $darkModeTextsub;
+    }
 }

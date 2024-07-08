@@ -16,12 +16,12 @@ const Services = () => {
             <Grid.Column largeScreen={9} mobile={6}>
               <div className={styles.serviceContainer}>
                 <div>
-                  <ServicesItem title='Application Developer' icon='mobile alternate' />
+                  <ServicesItem title='Experienced in diversed projects' icon='mobile alternate' />
 
-                  <ServicesItem title='Programmer' icon='desktop' />
+                  <ServicesItem title='Enjoys learning new systems' icon='desktop' />
                 </div>
 
-                <ServicesItem title='Database Programmer' icon='database' />
+                <ServicesItem title='Knowledgable in SQL and NoSQL' icon='database' />
 
               </div>
             </Grid.Column>

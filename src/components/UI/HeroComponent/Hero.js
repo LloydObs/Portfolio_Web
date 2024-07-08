@@ -2,7 +2,7 @@ import React from 'react'
 import { Container, Grid, Icon } from 'semantic-ui-react'
 import Image from 'next/image'
 import Link from 'next/link'
-import myImage from '../../../../src/assests/about.jpg'
+import myImage from '../../../../src/assests/prof_pic.png'
 import styles from '../../../styles/hero.module.scss'
 import SectionSub from '../SubSectionComponent/SectionSub'
 
@@ -17,13 +17,13 @@ const Hero = () => {
                             <div className={styles.heroContent}>
                                 <SectionSub subtitle='fn Hello(  )' />
                                 <h2>
-                                    I&apos;m Lloyd Objero
+                                    I&apos;m Lloyd Adrian Objero
                                 </h2>
                                 <h5>
-                                    Mobile Developer | Backend Developer
+                                    Freelancer (On-break) |  Developer
                                 </h5>
                                 <p>
-                                    Currently a Fresh IT graduate from PUP. I find satisfaction in
+                                    A PUP IT graduate and currently working as a Junior Developer in BGC. I find satisfaction in
                                     developing small programs and solving problems through coding. My
                                     interest in learning new technology extends beyond the classroom and
                                     I always find a room to improve my coding skills and problem solving skills.

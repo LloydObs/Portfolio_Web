@@ -4,7 +4,7 @@ import classes from '../../styles/header.module.scss'
 import styles from '../../styles/footer.module.scss'
 import Link from 'next/link'
 import { navLink } from '@/components/Header/Header';
-
+import { Link as ScrollLink, Element } from 'react-scroll';
 
 const Footer = () => {
 
@@ -20,9 +20,16 @@ const Footer = () => {
             <div className={classes.navMenu}>
               {
                 navLink.map((item, index) => (
-                  <Link href={item.path} key={index}>
-                    {item.display}
-                  </Link>
+                  <ScrollLink
+                  key={index}
+                  to={item.path}
+                  smooth={true}
+                  duration={500}
+                  spy={true}
+                  offset={100}
+                >
+                  {item.display}
+                </ScrollLink>
                 ))
               }
             </div>
